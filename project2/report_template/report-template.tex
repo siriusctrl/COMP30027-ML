@@ -112,7 +112,7 @@ term frequency(TF) and inverse document frequency(IDF).
 The TF part measure how frequent we could see a word in a document, 
 IDF represent the incorporated which diminishes the weight of terms that 
 occur very frequently in the document set and increases the 
-weight of terms that occur rarely.\newcite{wiki:tfidf}
+weight of terms that occur rarely.(\newcite{wiki:tfidf})
 By using this method, the words in those tweets could be weighted
 properly. What should not be neglected is that I process the text both
 in word level and char level (with n-gram range 2-6 for word to char)
@@ -138,7 +138,7 @@ on relatively large unseen data. The reason that I don't use dev set for
 testing primarily is because I prefer dev set as real testing set which 
 could provide me an opportunity to test my model on brand new data. If 
 we only test our data on dev set, we are still trying to learn the
-hyper-parameters from dev set which is the thing that people don't want.
+hyper-parameters from dev set which will cause over-estimate.
 
 \begin{table}[h]
   \begin{center}
@@ -151,9 +151,10 @@ hyper-parameters from dev set which is the thing that people don't want.
        MNB & 42\% & 34.3\% \\
        Logistic Regression & 40.1\% & 34.1\% \\
        Random Forest & 40.2\% & 34.1\% \\
+       Linear SVM & 40.4\% & 33.1\% \\
        Voting & 40.6\% & 34.7\% \\
-       Dense NN & 38\% & 32.8\% \\
-       Word Embedding MNB & 60\% & 32.5\% \\
+       Dense NN & 38\% & 30.8\% \\
+       Word Embedding & 60\% & 31.5\% \\
        \hline
  
  \end{tabular}
@@ -167,59 +168,54 @@ hyper-parameters from dev set which is the thing that people don't want.
 Initially, I prefer these approaches to be baseline, 
 whereas, they produce a lot of outstanding results and becomes my 
 final choice.
- 
+
 \subsubsection{Multinomial Naive Bayes (sklearn)}
 \begin{itemize}
-\item 
-NB is normally the first approach people 
-want to try when doing a NLP task. Also, It could handle multi-class
-problems naturally and yield some decent result. Since we know this
-is a multi-class prediction and the data distribution follows a multinomial
-distribution, we chose the MNB classifier.
-
-\item 
-42.8\% mean accuracy obtained by implementing 20 fold cross-validation, 
-34.5\% accuracy for train-dev evaluation.
-
-\item 
-Hyper-parameters setting: default
+      \item 
+            NB is normally the first approach people 
+            want to try when doing a NLP task. Also, It could handle multi-class
+            problems naturally and yield some decent result. Since we know this
+            is a multi-class prediction and the data distribution follows a multinomial
+            distribution, we chose the MNB classifier.
 \end{itemize}
 
 \subsubsection{Logistic Regression (sklearn)}
 \begin{itemize}
+      \item 
+            sag/saga solver works pretty well on 
+            multi-class problems and perform fast convergence in problem with huge data set.
 
-\item 
-sag/saga solver works pretty well on 
-multi-class problems and perform fast convergence in problem with huge data set.
-
-\item
-Performance:
-39.5\% mean accuracy obtained by implementing 10 fold cross-validation, 
-33.2\% accuracy for 
-train-dev evaluation.
-
-\item 
-Only change solver to saga for the purpose of saving memory
-(compare to newton's method) Hessian matrices are not required, 
-convergence grantee for enough training instances (compare to quasi-newton's method),
-support multi-class instead of one-vs-rest (compare to linear solver) and support more
-normalization method (compare to sag).
-
+      \item Only change solver to saga for the purpose of saving memory
+            (compare to newton's method) Hessian matrices are not required, 
+            convergence grantee for enough training instances (compare to 
+            quasi-newton's method),
+            support multi-class instead of one-vs-rest (compare to linear solver) 
+            and support more normalization method (compare to sag).
 \end{itemize}
 
 \subsubsection{Random Forest (sklearn)}
 \begin{itemize}
-\item Why this model was chosen: Ensemble learning normally works well and 
-it could handle multi-class problem naturally. In Random Forest, the
-variance of the model could be minimized.
-
-\item Real performance: 40.8\% mean accuracy obtained by implementing 3 fold cross-validation, 
-34\% accuracy for train-dev evaluation.
+      \item Why this model was chosen: Ensemble learning normally works well and 
+            it could handle multi-class problem naturally. In Random Forest, the
+            variance of the model could be minimized.
 \end{itemize}
+
+\subsubsection{LinearSVM (sklearn)}
+Why this model was chosen (\newcite{linearkernal}):
+\begin{enumerate}
+      \item most text are linear separable
+      \item SVM has works well on a lot of different jobs with good interpretability
+      \item Normal NLP task contains a huge number of instance and features.
+            Since documents contains a lot of unique words and we are trying to
+            map the features to high dimension. In this case, using linear
+            kernel could significantly improve our training time.
+      \item Less work in fine-tuning, since only regularization parameter.
+\end{enumerate}
 
 \subsubsection{Voting (sklearn)}
 \begin{itemize}
-\item Why this model was chosen:
+      \item Voting is a robust learning method, works well on multiple weak learner.
+      \item 
 \end{itemize}
 
 \subsection{Deep Learning}
@@ -229,18 +225,18 @@ learner to do some feature selection as it is really good at fitting the data.
 
 \subsubsection{Feedforward Neural Network (Keras+Tensorflow)}
 \begin{itemize}
-\item Why this model was chosen:
+      \item Why this model was chosen:
 \end{itemize}
 
 \subsubsection{Word Embedding (Keras+Tensorflow)}
 \begin{itemize}
-\item Why this model was chosen:
+      \item Why this model was chosen:
 \end{itemize}
 
 
 \section{Conclusions}
 
-Concluding text.
+In conclusion,
 
 \bibliographystyle{acl}
 \bibliography{sample}
