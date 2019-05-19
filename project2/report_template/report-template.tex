@@ -153,8 +153,9 @@ hyper-parameters from dev set which will cause over-estimate.
        Random Forest & 40.2\% & 34.1\% \\
        Linear SVM & 40.4\% & 33.1\% \\
        Voting & 40.6\% & 34.7\% \\
-       Dense NN & 38\% & 30.8\% \\
-       Word Embedding & 60\% & 31.5\% \\
+       -- & -- & --\\
+       Dense NN & None & 33.8\% \\
+       Word Embedding & None & 31.5\% \\
        \hline
  
  \end{tabular}
@@ -195,7 +196,7 @@ final choice.
 
 \subsubsection{Random Forest (sklearn)}
 \begin{itemize}
-      \item Why this model was chosen: Ensemble learning normally works well and 
+      \item Ensemble learning normally works well and 
             it could handle multi-class problem naturally. In Random Forest, the
             variance of the model could be minimized.
 \end{itemize}
@@ -203,7 +204,7 @@ final choice.
 \subsubsection{LinearSVM (sklearn)}
 Why this model was chosen (\newcite{linearkernal}):
 \begin{enumerate}
-      \item most text are linear separable
+      \item Most of text of NLP problems are linear separable
       \item SVM has works well on a lot of different jobs with good interpretability
       \item Normal NLP task contains a huge number of instance and features.
             Since documents contains a lot of unique words and we are trying to
@@ -214,8 +215,16 @@ Why this model was chosen (\newcite{linearkernal}):
 
 \subsubsection{Voting (sklearn)}
 \begin{itemize}
-      \item Voting is a robust learning method, works well on multiple weak learner.
-      \item 
+      \item Voting is a robust learning method, works well on combining
+            multiple weak learner. When doing this project, we use softmax function
+            to make a decision based on the how confidence (represent in probability) 
+            is the model think their predictions are correct.
+      \item As we already had some trained weak model, we could just combine them and 
+            see if they yield some useful results. The final result shows that it does
+            well pretty well. MNB, Logistic Regression and Random Forest are combined 
+            for my voting approach, and yield a results which better than any single 
+            of them.
+            
 \end{itemize}
 
 \subsection{Deep Learning}
@@ -225,7 +234,7 @@ learner to do some feature selection as it is really good at fitting the data.
 
 \subsubsection{Feedforward Neural Network (Keras+Tensorflow)}
 \begin{itemize}
-      \item Why this model was chosen:
+      \item Only train-100 was used as train data here, and 
 \end{itemize}
 
 \subsubsection{Word Embedding (Keras+Tensorflow)}
@@ -236,7 +245,11 @@ learner to do some feature selection as it is really good at fitting the data.
 
 \section{Conclusions}
 
-In conclusion,
+In conclusion, I found out that the most important part of this project is feature engineering.
+By using the same processed data, the difference between best model and worst model are smaller
+than 3\% (compare to itself not 100\%). Intuitively, better pre-processing method could extract 
+more useful information from the raw data. Consequently, models could gain huge advantages by 
+using this "extra" information.
 
 \bibliographystyle{acl}
 \bibliography{sample}
