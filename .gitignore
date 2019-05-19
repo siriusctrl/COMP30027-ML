@@ -4,3 +4,11 @@ prject 1/\.ipynb_checkpoints/
 prject 1/\.DS_Store
 
 \.DS_Store
+
+*.tsv
+
+*.csv
+
+project2/glove\.6B/
+
+*.txt
