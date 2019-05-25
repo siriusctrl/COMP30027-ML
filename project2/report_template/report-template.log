@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.13)  24 MAY 2019 23:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.13)  25 MAY 2019 23:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -183,41 +183,46 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 39.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 39.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 39.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 34.
 
-Underfull \hbox (badness 1067) in paragraph at lines 33--45
+Underfull \hbox (badness 1067) in paragraph at lines 35--43
 \OT1/ppl/m/n/10.95 Those files were orig-i-nally pro-vided to us.
  []
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 64.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 64.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 64.
 
-Underfull \hbox (badness 1888) in paragraph at lines 47--73
+Underfull \hbox (badness 1888) in paragraph at lines 45--69
 \OT1/ppl/m/n/10.95 which are widely used but un-in-for-ma-tive.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--73
+Underfull \hbox (badness 10000) in paragraph at lines 45--69
 
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 47--73
+Underfull \hbox (badness 2538) in paragraph at lines 45--69
 \OT1/ppl/m/n/10.95 Up un-til now, the sam-ple size are huge,
  []
 
 
-Underfull \hbox (badness 4316) in paragraph at lines 47--73
+Underfull \hbox (badness 4316) in paragraph at lines 45--69
 \OT1/ppl/m/n/10.95 throw-ing some less in-for-ma-tive words is
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 47--73
-\OT1/ppl/m/n/10.95 could re-sults in over-fit-ting. By do-ing so,
+Underfull \hbox (badness 1178) in paragraph at lines 45--69
+\OT1/ppl/m/n/10.95 used but less in-for-ma-tive. Gen-er-ally, you
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 45--69
+\OT1/ppl/m/n/10.95 couldn't say that peo-ple lives in Bris-bane
  []
 
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -225,144 +230,103 @@ Underfull \hbox (badness 1377) in paragraph at lines 47--73
 
 
 ]
-Overfull \hbox (13.95575pt too wide) in paragraph at lines 131--144
+Overfull \hbox (13.95575pt too wide) in paragraph at lines 118--130
  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 158.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 137.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 137.
 
-Underfull \hbox (badness 2401) in paragraph at lines 168--170
+Underfull \hbox (badness 1377) in paragraph at lines 142--144
+[]\OT1/ppl/m/n/10.95 By look-ing at the con-fu-sion ma-trix, it
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 148--151
 []\OT1/ppl/m/n/10.95 sag/saga solver works pretty well on
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 168--170
+Underfull \hbox (badness 2486) in paragraph at lines 148--151
 \OT1/ppl/m/n/10.95 multi-class prob-lems and per-form fast
  []
 
-
-Underfull \hbox (badness 5652) in paragraph at lines 170--176
-\OT1/ppl/m/n/10.95 train-ing in-stances (com-pare to quasi-
- []
-
-
-Underfull \hbox (badness 1194) in paragraph at lines 170--176
-\OT1/ppl/m/n/10.95 stead of one-vs-rest (com-pare to lin-ear
- []
-
-
-Underfull \hbox (badness 6675) in paragraph at lines 186--187
-\OT1/ppl/m/n/10.95 Why this model was cho-sen ([]Alexan-dre
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 227--230
-[]\OT1/ppl/m/n/10.95 one-hot based on fre-quency was
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--230
-\OT1/ppl/m/n/10.95 used, same rea-son as Feed-for-ward
- []
-
-
-Underfull \hbox (badness 2318) in paragraph at lines 227--230
-\OT1/ppl/m/n/10.95 NN. Pre-trained em-bed-ding layer was
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 235--237
-\OT1/ppl/m/n/10.95 due to the lack of in-for-ma-tion in pre-
- []
-
-(/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.bbl
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 8.
+[2] (/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.bbl
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 7.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 4--10
-[]\OT1/ppl/m/n/10.95 Alexandre KOWAL-CZYK.  2014.  Lin-
+Underfull \hbox (badness 1515) in paragraph at lines 4--9
+[]\OT1/ppl/m/n/10.95 Kaushik Mani.  2017.  GUR's and LSTM's.
  []
 
 
-Underfull \hbox (badness 8094) in paragraph at lines 4--10
-\OT1/ppl/m/n/10.95 ear Ker-nel: Why is it rec-om-mended
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+[]$\OT1/pcr/m/n/10.95 https : / / towardsdatascience . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--10
-\OT1/ppl/m/n/10.95 for text clas-si-fi-ca-tion?  []$\OT1/pcr/m/n/10.95 https :
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+\OT1/pcr/m/n/10.95 grus-[]and-[]lstm-[]s-[]741709a9b9b1$[]\OT1/ppl/m/n/10.95 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--10
-\OT1/pcr/m/n/10.95 / / www . svm-[]tutorial . com / 2014 / 10 /
- []
-
-
-Overfull \hbox (72.85342pt too wide) in paragraph at lines 4--10
-\OT1/pcr/m/n/10.95 svm-[]linear-[]kernel-[]good-[]text-[]classification/$[]\OT1/ppl/m/n/10.95 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--18
+Underfull \hbox (badness 10000) in paragraph at lines 11--17
 []\OT1/ppl/m/n/10.95 Wikipedia con-trib-u-tors.  2019.  Tf{idf
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--18
+Underfull \hbox (badness 10000) in paragraph at lines 11--17
 \OT1/ppl/m/n/10.95 --- Wikipedia, the free en-cy-clo-pe-dia.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--18
+Underfull \hbox (badness 10000) in paragraph at lines 11--17
 []$\OT1/pcr/m/n/10.95 https : / / en . wikipedia . org / w /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--18
+Underfull \hbox (badness 10000) in paragraph at lines 11--17
 \OT1/pcr/m/n/10.95 index . php ? title = Tf % E2 % 80 % 93idf &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--18
+Underfull \hbox (badness 10000) in paragraph at lines 11--17
 \OT1/pcr/m/n/10.95 oldid = 894112456$[]\OT1/ppl/m/n/10.95 .  [On-line; ac-cessed
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
+ [3
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
  (/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
 Package rerunfilecheck Info: File `report-template.out' has not changed.
-(rerunfilecheck)             Checksum: BDE1452FB5E3AD93ABD56CA18F55B501;1254.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
+(rerunfilecheck)             Checksum: A56C393521D41E6E9472FD35B9297F5F;938.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
  ) 
 Here is how much of TeX's memory you used:
- 4414 strings out of 492649
- 67430 string characters out of 6129622
+ 4403 strings out of 492649
+ 67209 string characters out of 6129622
  158820 words of memory out of 5000000
- 8254 multiletter control sequences out of 15000+600000
+ 8251 multiletter control sequences out of 15000+600000
  16948 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,15n,28p,273b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
+ 28i,15n,28p,260b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on /Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.pdf (3 pages, 102176 bytes).
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on /Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.pdf (3 pages, 77588 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

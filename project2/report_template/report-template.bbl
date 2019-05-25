@@ -1,11 +1,10 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citename{{Alexandre KOWALCZYK}}2014]{linearkernal}
-{Alexandre KOWALCZYK}.
-\newblock 2014.
-\newblock {Linear Kernel}: Why is it recommended for text classification?
-\newblock
-  \url{https://www.svm-tutorial.com/2014/10/svm-linear-kernel-good-text-classification/}.
+\bibitem[\protect\citename{{Kaushik Mani}}2017]{lstm}
+{Kaushik Mani}.
+\newblock 2017.
+\newblock {GUR's and LSTM's}.
+\newblock \url{https://towardsdatascience.com/grus-and-lstm-s-741709a9b9b1}.
 \newblock [Online; accessed 19-May-2019].
 
 \bibitem[\protect\citename{{Wikipedia contributors}}2019]{wiki:tfidf}

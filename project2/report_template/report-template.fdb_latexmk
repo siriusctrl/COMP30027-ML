@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex report-template"] 1558681107 "report-template.aux" "report-template.bbl" "report-template" 1558703417
+["bibtex report-template"] 1558788743 "report-template.aux" "report-template.bbl" "report-template" 1558790901
   "./acl.bst" 1521159609 25099 f047a362dbde82b55395bb038aabeb62 ""
-  "report-template.aux" 1558703417 3205 adde5e65710a0474a3b50e91aa3efbd7 ""
-  "sample.bib" 1558247075 1472 69dd5be49d4e565a5bd469b6de82e107 ""
+  "report-template.aux" 1558790901 2775 84453bee39c8b0519f3fee57e7df4baf ""
+  "sample.bib" 1558769951 1701 22b4ae8f4064f48f158a5c5f30f2a9a8 ""
   (generated)
-  "report-template.bbl"
   "report-template.blg"
-["pdflatex"] 1558703417 "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.tex" "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.pdf" "report-template" 1558703417
-  "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.aux" 1558703417 3205 adde5e65710a0474a3b50e91aa3efbd7 ""
-  "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.tex" 1558703416 11365 c570559df87a0df8135cc1e60cbc093d ""
+  "report-template.bbl"
+["pdflatex"] 1558790900 "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.tex" "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.pdf" "report-template" 1558790901
+  "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.aux" 1558790901 2775 84453bee39c8b0519f3fee57e7df4baf ""
+  "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.tex" 1558790900 9848 a525b5d493c11e8ed4b462fa05104548 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1480098688 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -31,10 +31,7 @@
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1480098701 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1480098701 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm" 1480098701 1116 25a7bf822c58caf309a702ef79f4afbb ""
-  "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb" 1480098733 36094 798f80770b3b148ceedd006d487db67c ""
-  "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1480098733 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
-  "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb" 1480098733 32442 c975af247b6702f7ca0c299af3616b80 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb" 1480098746 45758 19968a0990191524e34e1994d4a31cb6 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb" 1480098746 52406 dad2f72863a03727d5f536c64a69c452 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb" 1480098746 52665 661b1e6b26edb5f50dd491f8a701cb57 ""
@@ -66,14 +63,14 @@
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1552449474 4220280 49c649c9dcf3ea0ad122b125e54af249 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   "colacl.sty" 1521159609 21520 4b33295faefce7dd9d9782fec7f3f87a ""
-  "report-template.aux" 1558703417 3205 adde5e65710a0474a3b50e91aa3efbd7 ""
-  "report-template.bbl" 1558681107 683 7a5afdf188a39c537d1386266be0bdd0 "bibtex report-template"
-  "report-template.out" 1558703417 1254 bde1452fb5e3ad93abd56ca18f55b501 ""
-  "report-template.tex" 1558703416 11365 c570559df87a0df8135cc1e60cbc093d ""
+  "report-template.aux" 1558790901 2775 84453bee39c8b0519f3fee57e7df4baf ""
+  "report-template.bbl" 1558788744 594 f85eec989329263646d0cddbe5e9e28b "bibtex report-template"
+  "report-template.out" 1558790901 938 a56c393521d41e6e9472fd35b9297f5f ""
+  "report-template.tex" 1558790900 9848 a525b5d493c11e8ed4b462fa05104548 ""
   (generated)
   "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.log"
   "report-template.aux"
-  "report-template.log"
+  "report-template.pdf"
   "report-template.out"
   "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.pdf"
-  "report-template.pdf"
+  "report-template.log"
