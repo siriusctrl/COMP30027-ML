@@ -1,11 +1,26 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citename{{Kaushik Mani}}2017]{lstm}
-{Kaushik Mani}.
-\newblock 2017.
+\bibitem[\protect\citename{{Alexandre KOWALCZYK}}2019]{lstm}
+{Alexandre KOWALCZYK}.
+\newblock 2019.
 \newblock {GUR's and LSTM's}.
 \newblock \url{https://towardsdatascience.com/grus-and-lstm-s-741709a9b9b1}.
 \newblock [Online; accessed 19-May-2019].
+
+\bibitem[\protect\citename{{Pappas} \bgroup et al.\egroup
+  }2018]{2018arXiv181107497P}
+Konstantinos {Pappas}, Mahmoud {Azab}, and Rada {Mihalcea}.
+\newblock 2018.
+\newblock {A Comparative Analysis of Content-based Geolocation in Blogs and
+  Tweets}.
+\newblock {\em arXiv e-prints}, page arXiv:1811.07497, Nov.
+
+\bibitem[\protect\citename{{Rahimi} \bgroup et al.\egroup
+  }2018]{2018arXiv180408049R}
+Afshin {Rahimi}, Trevor {Cohn}, and Timothy {Baldwin}.
+\newblock 2018.
+\newblock {Semi-supervised User Geolocation via Graph Convolutional Networks}.
+\newblock {\em arXiv e-prints}, page arXiv:1804.08049, Apr.
 
 \bibitem[\protect\citename{{Wikipedia contributors}}2019]{wiki:tfidf}
 {Wikipedia contributors}.

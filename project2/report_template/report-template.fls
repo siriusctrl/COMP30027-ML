@@ -101,8 +101,11 @@ INPUT /Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-te
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplri7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/palatino/pplri7t.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
 INPUT /Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.aux
 INPUT /Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.out
 INPUT /Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.out
@@ -111,3 +114,4 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb
