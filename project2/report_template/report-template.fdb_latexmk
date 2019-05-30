@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex report-template"] 1558855259 "report-template.aux" "report-template.bbl" "report-template" 1558856412
+["bibtex report-template"] 1558883550 "report-template.aux" "report-template.bbl" "report-template" 1558919865
   "./acl.bst" 1521159609 25099 f047a362dbde82b55395bb038aabeb62 ""
-  "report-template.aux" 1558856363 3002 2aa3435105705b6d9e78501aef4de26f ""
+  "report-template.aux" 1558919854 2271 cc5e4406384cfbe77a95b4cc61b36a62 ""
   "sample.bib" 1558855246 2128 2c96cb4b980e6e11cb9998d7d771ddde ""
   (generated)
   "report-template.bbl"
   "report-template.blg"
-["pdflatex"] 1558856363 "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.tex" "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.pdf" "report-template" 1558856412
-  "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.aux" 1558856363 3002 2aa3435105705b6d9e78501aef4de26f ""
-  "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.tex" 1558856411 10614 8671995b7dbd47b1dfe1249a97b27719 ""
+["pdflatex"] 1558919854 "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.tex" "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.pdf" "report-template" 1558919865
+  "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.aux" 1558919854 2271 cc5e4406384cfbe77a95b4cc61b36a62 ""
+  "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.tex" 1558919865 9682 37eba855061bdbd7bbd1472ae552ddb3 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1480098688 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -67,14 +67,14 @@
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1552449474 4220280 49c649c9dcf3ea0ad122b125e54af249 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   "colacl.sty" 1521159609 21520 4b33295faefce7dd9d9782fec7f3f87a ""
-  "report-template.aux" 1558856363 3002 2aa3435105705b6d9e78501aef4de26f ""
-  "report-template.bbl" 1558855259 1219 e1640128bff278d1c85d6cabf329433b "bibtex report-template"
-  "report-template.out" 1558856363 938 a56c393521d41e6e9472fd35b9297f5f ""
-  "report-template.tex" 1558856411 10614 8671995b7dbd47b1dfe1249a97b27719 ""
+  "report-template.aux" 1558919854 2271 cc5e4406384cfbe77a95b4cc61b36a62 ""
+  "report-template.bbl" 1558883550 910 4ed9fa82620c3a79dc649ccecc6c2454 "bibtex report-template"
+  "report-template.out" 1558919854 780 15f43f400cec7c9b7ccf9a755e21c125 ""
+  "report-template.tex" 1558919865 9682 37eba855061bdbd7bbd1472ae552ddb3 ""
   (generated)
-  "report-template.log"
-  "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.pdf"
-  "report-template.aux"
   "report-template.out"
   "report-template.pdf"
+  "report-template.log"
   "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.log"
+  "/Users/xinyaoniu/Documents/COMP30027-ML/project2/report_template/report-template.pdf"
+  "report-template.aux"

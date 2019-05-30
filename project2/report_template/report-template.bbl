@@ -22,12 +22,4 @@ Afshin {Rahimi}, Trevor {Cohn}, and Timothy {Baldwin}.
 \newblock {Semi-supervised User Geolocation via Graph Convolutional Networks}.
 \newblock {\em arXiv e-prints}, page arXiv:1804.08049, Apr.
 
-\bibitem[\protect\citename{{Wikipedia contributors}}2019]{wiki:tfidf}
-{Wikipedia contributors}.
-\newblock 2019.
-\newblock Tf–idf --- {Wikipedia}{,} the free encyclopedia.
-\newblock
-  \url{https://en.wikipedia.org/w/index.php?title=Tf%E2%80%93idf&oldid=894112456}.
-\newblock [Online; accessed 18-May-2019].
-
 \end{thebibliography}
